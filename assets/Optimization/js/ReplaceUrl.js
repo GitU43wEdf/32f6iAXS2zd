@@ -1,0 +1,1 @@
+$(document).ready(function(){$('a[href^="https://"]').each(function(){var a=$(this).attr("href").replace("https://#/","https://#/");$(this).attr("href",a)}),$('a[data-href^="https://"]').each(function(){var a=$(this).attr("data-href").replace("https://#/","https://#/");$(this).attr("data-href",a)})});
